@@ -1,0 +1,173 @@
+<?php //%255BApp%255CEntity%255CLibro%2524CLASSMETADATA%255D%255B1%255D
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+        clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Libro',
+            ],
+            'namespace' => [
+                'App\\Entity',
+            ],
+            'rootEntityName' => [
+                'App\\Entity\\Libro',
+            ],
+            'customRepositoryClassName' => [
+                'App\\Repository\\LibroRepository',
+            ],
+            'identifier' => [
+                [
+                    'id',
+                ],
+            ],
+            'generatorType' => [
+                4,
+            ],
+            'fieldMappings' => [
+                [
+                    'id' => [
+                        'fieldName' => 'id',
+                        'type' => 'integer',
+                        'scale' => 0,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => 0,
+                        'id' => true,
+                        'columnName' => 'id',
+                    ],
+                    'titulo' => [
+                        'fieldName' => 'titulo',
+                        'type' => 'string',
+                        'scale' => 0,
+                        'length' => 255,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => 0,
+                        'columnName' => 'titulo',
+                    ],
+                    'isbn' => [
+                        'fieldName' => 'isbn',
+                        'type' => 'integer',
+                        'scale' => 0,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => true,
+                        'precision' => 0,
+                        'columnName' => 'isbn',
+                    ],
+                    'fecha' => [
+                        'fieldName' => 'fecha',
+                        'type' => 'date',
+                        'scale' => 0,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => true,
+                        'precision' => 0,
+                        'columnName' => 'fecha',
+                    ],
+                    'genero' => [
+                        'fieldName' => 'genero',
+                        'type' => 'string',
+                        'scale' => 0,
+                        'length' => 255,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => 0,
+                        'columnName' => 'genero',
+                    ],
+                    'bestseller' => [
+                        'fieldName' => 'bestseller',
+                        'type' => 'boolean',
+                        'scale' => 0,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => 0,
+                        'columnName' => 'bestseller',
+                    ],
+                    'image' => [
+                        'fieldName' => 'image',
+                        'type' => 'string',
+                        'scale' => 0,
+                        'length' => 255,
+                        'unique' => false,
+                        'nullable' => true,
+                        'precision' => 0,
+                        'columnName' => 'image',
+                    ],
+                    'brochureFilename' => [
+                        'fieldName' => 'brochureFilename',
+                        'type' => 'string',
+                        'scale' => 0,
+                        'length' => 255,
+                        'unique' => false,
+                        'nullable' => true,
+                        'precision' => 0,
+                        'columnName' => 'brochure_filename',
+                    ],
+                ],
+            ],
+            'fieldNames' => [
+                [
+                    'id' => 'id',
+                    'titulo' => 'titulo',
+                    'isbn' => 'isbn',
+                    'fecha' => 'fecha',
+                    'genero' => 'genero',
+                    'bestseller' => 'bestseller',
+                    'image' => 'image',
+                    'brochure_filename' => 'brochureFilename',
+                ],
+            ],
+            'columnNames' => [
+                [
+                    'id' => 'id',
+                    'titulo' => 'titulo',
+                    'isbn' => 'isbn',
+                    'fecha' => 'fecha',
+                    'genero' => 'genero',
+                    'bestseller' => 'bestseller',
+                    'image' => 'image',
+                    'brochureFilename' => 'brochure_filename',
+                ],
+            ],
+            'table' => [
+                [
+                    'name' => 'libro',
+                ],
+            ],
+            'associationMappings' => [
+                [
+                    'autor' => [
+                        'fieldName' => 'autor',
+                        'mappedBy' => 'libro',
+                        'targetEntity' => 'App\\Entity\\Autor',
+                        'cascade' => [],
+                        'orphanRemoval' => false,
+                        'fetch' => 2,
+                        'type' => 4,
+                        'inversedBy' => null,
+                        'isOwningSide' => false,
+                        'sourceEntity' => 'App\\Entity\\Libro',
+                        'isCascadeRemove' => false,
+                        'isCascadePersist' => false,
+                        'isCascadeRefresh' => false,
+                        'isCascadeMerge' => false,
+                        'isCascadeDetach' => false,
+                    ],
+                ],
+            ],
+            'idGenerator' => [
+                $o[1],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

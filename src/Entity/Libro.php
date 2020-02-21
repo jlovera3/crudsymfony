@@ -43,16 +43,21 @@ class Libro
      * @ORM\Column(type="boolean")
      */
     private $bestseller;
-
-    /**
-     * @ORM\Column(type="blob", nullable=true)
-     */
-    private $image;
-
+    
     /**
      * @ORM\OneToMany(targetEntity="App\Entity\Autor", mappedBy="libro")
      */
     private $autor;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $image;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $brochureFilename;
 
     public function __construct()
     {
@@ -125,18 +130,6 @@ class Libro
         return $this;
     }
 
-    public function getImage()
-    {
-        return $this->image;
-    }
-
-    public function setImage($image): self
-    {
-        $this->image = $image;
-
-        return $this;
-    }
-
     /**
      * @return Collection|Autor[]
      */
@@ -164,6 +157,36 @@ class Libro
                 $autor->setLibro(null);
             }
         }
+
+        return $this;
+    }
+    public function __toString(){
+        // to show the name of the Category in the select
+        return $this->titulo;
+        // to show the id of the Category in the select
+        // return $this->id;
+    }
+
+    public function getImage(): ?string
+    {
+        return $this->image;
+    }
+
+    public function setImage(?string $image): self
+    {
+        $this->image = $image;
+
+        return $this;
+    }
+
+    public function getBrochureFilename(): ?string
+    {
+        return $this->brochureFilename;
+    }
+
+    public function setBrochureFilename(?string $brochureFilename): self
+    {
+        $this->brochureFilename = $brochureFilename;
 
         return $this;
     }
