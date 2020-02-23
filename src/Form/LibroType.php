@@ -8,6 +8,8 @@ use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Component\Validator\Constraints\File;
+use Symfony\Component\Form\Extension\Core\Type\FileType;
 
 class LibroType extends AbstractType
 {
@@ -32,7 +34,7 @@ class LibroType extends AbstractType
             ->add('bestseller')
             ->add('image')
             ->add('brochure', FileType::class, [
-                'label' => 'Brochure (PDF file)',
+                'label' => 'Brochure (JPG file)',
 
                 // unmapped means that this field is not associated to any entity property
                 'mapped' => false,
@@ -45,12 +47,12 @@ class LibroType extends AbstractType
                 // in the associated entity, so you can use the PHP constraint classes
                 'constraints' => [
                     new File([
-                        'maxSize' => '1024k',
+                        'maxSize' => '10m',
                         'mimeTypes' => [
-                            'application/pdf',
-                            'application/x-pdf',
+                            'application/jpg',
+                            'application/x-jpg',
                         ],
-                        'mimeTypesMessage' => 'Please upload a valid PDF document',
+                        'mimeTypesMessage' => 'Please upload a valid JPG image',
                     ])
                 ],
             ])

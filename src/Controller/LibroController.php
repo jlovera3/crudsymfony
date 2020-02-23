@@ -62,7 +62,7 @@ class LibroController extends AbstractController
 
                 // Updates the 'brochureFilename' property to store the PDF file name
                 // instead of its contents
-                $product->setBrochureFilename($newFilename);
+                $libro->setBrochureFilename($newFilename);
             }
 
             // ... persist the $product variable or any other work

@@ -1,9 +1,8 @@
 {{ form_start(form) }}
     {{ form_widget(form) }}
-{{ form_row(form.brochure) }}
-    {% if libro.brochure %}
-        <a href="{{ asset('uploads/brochures/' ~ libro.brochureFilename) }}">View brochure (PDF)</a>
-    {% endif %}
-    <button class="btn">{{ button_label|default('Save') }}</button>
+        {% if libro.brochureFilename %}
+            <a href="{{ asset('uploads/brochures/' ~ libro.brochureFilename) }}">View brochure (PDF)</a>
+        {% endif %}
+        <button class="btn">{{ button_label|default('Save') }}</button>
 
 {{ form_end(form) }}
