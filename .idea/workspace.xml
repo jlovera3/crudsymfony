@@ -2,43 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6650667-1a0e-453f-86ed-e4e7f9296c51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/alien-profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/asteroid.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/astronaut-profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/lightspeed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mercury.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/meteor-shower.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/space-ice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/space-nav.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/MenuController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20200224130131.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/menu/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/menu/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AutorFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AutorFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/validator.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/LibroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/LibroController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MenuController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/LibroType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/LibroType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/autor/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/autor/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/libro/_delete_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libro/_delete_form.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/libro/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libro/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.preload.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.preload.php" afterDir="false" />
@@ -205,137 +183,10 @@
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/fEfuQtifSn/Z/Q/7lC4GbjYW6fu5ezUMmmQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/fEfuQtifSn/Z/Q/7lC4GbjYW6fu5ezUMmmQ" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/fEfuQtifSn/Z/R/lTv3clhBqMZmEpsBaCvg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/fEfuQtifSn/Z/R/lTv3clhBqMZmEpsBaCvg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/fEfuQtifSn/Z/Y/NX9i-Ib8cErVwarmVExw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/fEfuQtifSn/Z/Y/NX9i-Ib8cErVwarmVExw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.af.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.af.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ar.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ar.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.az.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.az.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.be.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.be.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bg.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bg.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ca.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ca.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.cs.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.cs.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.cy.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.cy.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.da.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.da.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.de.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.de.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.el.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.el.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.en.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.en.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.es.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.es.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.et.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.et.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.eu.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.eu.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fa.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fa.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fi.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fi.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fr.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fr.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.gl.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.gl.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.he.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.he.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hr.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hr.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hu.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hu.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hy.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hy.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.id.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.id.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.it.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.it.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ja.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ja.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lb.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lb.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lt.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lt.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lv.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lv.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.mn.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.mn.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nb.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nb.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nl.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nl.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nn.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nn.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.no.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.no.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pl.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pl.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt_BR.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt_BR.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt_PT.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt_PT.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ro.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ro.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ru.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ru.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sk.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sk.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sl.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sl.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sq.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sq.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sr_Cyrl.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sr_Cyrl.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sr_Latn.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sr_Latn.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sv.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sv.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.th.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.th.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.tl.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.tl.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.tr.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.tr.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.uk.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.uk.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.vi.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.vi.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.zh_CN.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.zh_CN.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.zh_TW.NWRN8S+.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.zh_TW.NWRN8S+.php.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/4b/4b6d7f7459fa489555a707b7336915cf6ea0294c1f0f88ef60efbbf8af7f4b14.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/4b/4b6d7f7459fa489555a707b7336915cf6ea0294c1f0f88ef60efbbf8af7f4b14.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/6b/6b3fb1af4357b15105c0a262e9d1288de8ed30b058f3516d6260499325ba6ee2.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/6b/6b3fb1af4357b15105c0a262e9d1288de8ed30b058f3516d6260499325ba6ee2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/97/9714940dbbe9dd57a515dd5dc4c4d21954c43f6cf3fc8f1b2cc1751b05bdc03e.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/97/9714940dbbe9dd57a515dd5dc4c4d21954c43f6cf3fc8f1b2cc1751b05bdc03e.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/cd/cd9bbcca472efa37a6b1d022159b3be12acb442971db2eeb07970e0b41e332a5.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/cd/cd9bbcca472efa37a6b1d022159b3be12acb442971db2eeb07970e0b41e332a5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/url_generating_routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/url_generating_routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/url_generating_routes.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/url_generating_routes.php.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/url_matching_routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/url_matching_routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/url_matching_routes.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/url_matching_routes.php.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/App_KernelProdContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/prod/App_KernelProdContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/App_KernelProdContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/prod/App_KernelProdContainer.php.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/App_KernelProdContainer.preload.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/prod/App_KernelProdContainer.preload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/Container64Om4Vs.legacy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/Container64Om4Vs/App_KernelProdContainer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/Container64Om4Vs/removed-ids.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/ContainerNAiwAhp/App_KernelProdContainer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/ContainerNAiwAhp/removed-ids.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/twig/17/179cada4e15539da5c982506d1de2de3b83cc94962f19bded3c09760eb017eee.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/prod/twig/17/179cada4e15539da5c982506d1de2de3b83cc94962f19bded3c09760eb017eee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/twig/56/56be8e2c5ac694b564110718569d0e4bdd32004402fc59dc1a20dfc110f76f8a.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/prod/twig/56/56be8e2c5ac694b564110718569d0e4bdd32004402fc59dc1a20dfc110f76f8a.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/twig/85/855d427c2b5cf6f076cb284458cbd2683b426a5c19cd3be236e321c14737a30a.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/prod/twig/85/855d427c2b5cf6f076cb284458cbd2683b426a5c19cd3be236e321c14737a30a.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/twig/93/93a1c40f6d2e75828649723af5a2c1699ee8047cad05123fcffbda1a12652a57.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/prod/twig/93/93a1c40f6d2e75828649723af5a2c1699ee8047cad05123fcffbda1a12652a57.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/twig/c5/c57333d78bd5d915c825050c5ab04033f166f1f498efd31b4dd7ae15251bf7da.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/prod/twig/c5/c57333d78bd5d915c825050c5ab04033f166f1f498efd31b4dd7ae15251bf7da.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/url_generating_routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/prod/url_generating_routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/url_generating_routes.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/prod/url_generating_routes.php.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/url_matching_routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/prod/url_matching_routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/prod/url_matching_routes.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/prod/url_matching_routes.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/e7/e7727e0f36778e81f60d0bd20d0e6bd77bfce5c0008f09010e3e9f4544bc2a4a.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/e7/e7727e0f36778e81f60d0bd20d0e6bd77bfce5c0008f09010e3e9f4544bc2a4a.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/log/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/log/dev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" afterDir="false" />
     </list>
@@ -518,7 +369,8 @@
       <workItem from="1582464459880" duration="9548000" />
       <workItem from="1582488785977" duration="1026000" />
       <workItem from="1582489821821" duration="1596000" />
-      <workItem from="1582546396919" duration="4840000" />
+      <workItem from="1582546396919" duration="5255000" />
+      <workItem from="1582564028478" duration="9919000" />
     </task>
     <task id="LOCAL-00001" summary="creacion de entidades">
       <created>1582291345520</created>
@@ -541,7 +393,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582460666605</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="registro y login">
+      <created>1582552012187</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582552012187</updated>
+    </task>
+    <task id="LOCAL-00005" summary="registro y login">
+      <created>1582552084087</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582552084087</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +418,8 @@
     <MESSAGE value="creacion de entidades" />
     <MESSAGE value="actualización 21/02" />
     <MESSAGE value="carga de datos inciales/ Fixtures" />
-    <option name="LAST_COMMIT_MESSAGE" value="carga de datos inciales/ Fixtures" />
+    <MESSAGE value="registro y login" />
+    <option name="LAST_COMMIT_MESSAGE" value="registro y login" />
   </component>
   <component name="WindowStateProjectService">
     <state x="476" y="4" key="#PHP" timestamp="1582306306222">
@@ -563,26 +430,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="602" y="332" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582460358570" />
-    <state x="235" y="16" key="CommitChangelistDialog2" timestamp="1582460662093">
+    <state x="235" y="16" key="CommitChangelistDialog2" timestamp="1582552083367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="235" y="16" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582460662093" />
+    <state x="235" y="16" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582552083367" />
     <state x="877" y="236" key="NewPhpClassDialog" timestamp="1582460767562">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="877" y="236" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1582460767562" />
+    <state x="604" y="337" key="NewPhpFileDialog" timestamp="1582565396731">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="337" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1582565396731" />
     <state x="-7" y="86" key="SettingsEditor" timestamp="1582484921710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-7" y="86" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582484921710" />
-    <state x="629" y="155" key="Vcs.Push.Dialog.v2" timestamp="1582460672676">
+    <state x="629" y="155" key="Vcs.Push.Dialog.v2" timestamp="1582552092351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="629" y="155" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582460672676" />
-    <state x="457" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1582546452176">
+    <state x="629" y="155" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582552092351" />
+    <state x="457" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1582564037691">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="457" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582546452176" />
+    <state x="457" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582564037691" />
     <state x="0" y="112" key="refactoring.ChangeSignatureDialog" timestamp="1582460431152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

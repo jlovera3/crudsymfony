@@ -21,6 +21,7 @@ class MenuController extends AbstractController
 
         return $this->render('menu/show.html.twig', [
             'comments'=>$comments,
+
         ]);
 
     }

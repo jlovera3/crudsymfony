@@ -75,7 +75,7 @@
     <parameter key="container.dumper.inline_class_loader">true</parameter>
     <parameter key="container.dumper.inline_factories">true</parameter>
     <parameter key="app.admin_email">jloveraulecia@gmail.com</parameter>
-    <parameter key="brochures_directory">C:\xampp\crudsymfony/public/uploads/brochures</parameter>
+    <parameter key="brochures_directory">C:\xampp\crudsymfony/public/images</parameter>
     <parameter key="fragment.renderer.hinclude.global_template"></parameter>
     <parameter key="fragment.path">/_fragment</parameter>
     <parameter key="kernel.secret">%env(APP_SECRET)%</parameter>
@@ -118,6 +118,7 @@
     <parameter key="serializer.mapping.cache.prefix"></parameter>
     <parameter key="twig.form.resources" type="collection">
       <parameter>form_div_layout.html.twig</parameter>
+      <parameter>bootstrap_4_layout.html.twig</parameter>
     </parameter>
     <parameter key="twig.default_path">C:\xampp\crudsymfony/templates</parameter>
     <parameter key="web_profiler.debug_toolbar.intercept_redirects">false</parameter>
@@ -4153,6 +4154,20 @@
         </argument>
         <argument>null</argument>
       </call>
+      <call method="add">
+        <argument type="service" id=".security.request_matcher.3LYTBUx"/>
+        <argument type="collection">
+          <argument>IS_AUTHENTICATED_FULLY</argument>
+        </argument>
+        <argument>null</argument>
+      </call>
+      <call method="add">
+        <argument type="service" id=".security.request_matcher.tRUVNXb"/>
+        <argument type="collection">
+          <argument>IS_AUTHENTICATED_FULLY</argument>
+        </argument>
+        <argument>null</argument>
+      </call>
     </service>
     <service id="security.context_listener" class="Symfony\Component\Security\Http\Firewall\ContextListener" public="false">
       <tag name="monolog.logger" channel="security"/>
@@ -4565,6 +4580,12 @@
     </service>
     <service id=".security.request_matcher.5dJADCx" class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
       <argument>^/admin</argument>
+    </service>
+    <service id=".security.request_matcher.3LYTBUx" class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
+      <argument>^/libro/\d+$</argument>
+    </service>
+    <service id=".security.request_matcher.tRUVNXb" class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
+      <argument>^/libro/new</argument>
     </service>
     <service id="security.command.user_password_encoder" class="Symfony\Bundle\SecurityBundle\Command\UserPasswordEncoderCommand" public="false">
       <tag name="console.command" command="security:encode-password"/>

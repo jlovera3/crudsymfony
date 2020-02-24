@@ -38,3 +38,5 @@ security:
         - { path: '^/admin/users', roles: IS_AUTHENTICATED_FULLY }
         # matches /admin/* except for anything matching the above rule
         - { path: '^/admin', roles: ROLE_ADMIN }
+        - { path: ^/libro/\d+$, roles: [IS_AUTHENTICATED_FULLY] }
+        - { path: '^/libro/new', roles: [IS_AUTHENTICATED_FULLY] }

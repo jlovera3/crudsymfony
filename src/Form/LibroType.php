@@ -34,7 +34,7 @@ class LibroType extends AbstractType
             ->add('bestseller')
             ->add('image')
             ->add('brochure', FileType::class, [
-                'label' => 'Brochure (JPG file)',
+                'label' => 'Pincha aquí para subir una imagen',
 
                 // unmapped means that this field is not associated to any entity property
                 'mapped' => false,
@@ -47,12 +47,13 @@ class LibroType extends AbstractType
                 // in the associated entity, so you can use the PHP constraint classes
                 'constraints' => [
                     new File([
-                        'maxSize' => '10m',
+                        'maxSize' => '5m',
                         'mimeTypes' => [
                             'application/jpg',
-                            'application/x-jpg',
+                            'application/jpeg',
+                            'application/png'
                         ],
-                        'mimeTypesMessage' => 'Please upload a valid JPG image',
+                        'mimeTypesMessage' => 'Please upload a valid JPG/ JPEG/ PNG image',
                     ])
                 ],
             ])

@@ -44,6 +44,10 @@ class LibroController extends AbstractController
             // so the PDF file must be processed only when a file is uploaded
             if ($brochureFile) {
                 $originalFilename = pathinfo($brochureFile->getClientOriginalName(), PATHINFO_FILENAME);
+
+                $brochureFileName = $fileUploader->upload($brochureFile);
+                $libro->setBrochureFilename($brochureFileName);
+
                 // This is needed to safely include the file name as part of the URL
                 // Enable "Intl" extension in "php.ini"
                 // https://stackoverflow.com/questions/33869521/how-can-i-enable-php-extension-intl

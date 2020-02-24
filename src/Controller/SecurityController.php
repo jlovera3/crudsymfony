@@ -6,7 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
-
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 class SecurityController extends AbstractController
 {
     /**
@@ -32,5 +32,14 @@ class SecurityController extends AbstractController
     public function logout()
     {
         throw new \Exception('This method can be blank - it will be intercepted by the logout key on your firewall');
+    }
+
+
+    public function adminDashboard()
+    {
+        $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY');
+
+        // or add an optional message - seen by developers
+        $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY', null, 'User tried to access a page without having ROLE_ADMIN');
     }
 }

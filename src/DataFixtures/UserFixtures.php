@@ -40,6 +40,7 @@ class UserFixtures extends Fixture
 
         $user2 = new User();
         $user2->setEmail('admin@admin.com');
+        $user2->setRoles(["ROL_ADMIN"]);
         $user2->setPassword($this->passwordEncoder->encodePassword(
             $user2,
             '123456'
@@ -48,6 +49,7 @@ class UserFixtures extends Fixture
 
         $user3 = new User();
         $user3->setEmail('ventas@ventas.com');
+        $user3->setRoles(["ROL_VENTAS"]);
         $user3->setPassword($this->passwordEncoder->encodePassword(
             $user3,
             '123456'
@@ -56,6 +58,7 @@ class UserFixtures extends Fixture
 
         $user4 = new User();
         $user4->setEmail('almacen@almacen.com');
+        $user4->setRoles(["ROL_ALMACEN"]);
         $user4->setPassword($this->passwordEncoder->encodePassword(
             $user4,
             '123456'

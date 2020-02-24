@@ -59,7 +59,13 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
         // line 9
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 14
-        echo "</head>
+        echo "    <style>
+        .col-sm-12{
+
+        }
+
+    </style>
+</head>
 
 <body>
 <nav class=\"navbar navbar-expand-lg navbar-dark navbar-bg mb-5\">
@@ -88,11 +94,11 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
                 <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                     <a class=\"dropdown-item\" href=\"#\">Profile</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 42
+        // line 48
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
         echo "\">Login</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 43
+        // line 49
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_register");
         echo "\">Register</a>
                 </div>
@@ -102,18 +108,18 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
 </nav>
 
 ";
-        // line 50
+        // line 56
         $this->displayBlock('body', $context, $blocks);
-        // line 51
+        // line 57
         echo "<div id=\"fb-root\"></div>
 <script async defer crossorigin=\"anonymous\" src=\"https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0\"></script>
 
 
 
 ";
-        // line 56
+        // line 62
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 67
+        // line 73
         echo "</body>
 </html>";
         
@@ -172,7 +178,7 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
 
     }
 
-    // line 50
+    // line 56
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -190,7 +196,7 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
 
     }
 
-    // line 56
+    // line 62
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -200,7 +206,7 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 57
+        // line 63
         echo "    <script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" integrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>
     <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js\" integrity=\"sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh\" crossorigin=\"anonymous\"></script>
     <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js\" integrity=\"sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ\" crossorigin=\"anonymous\"></script>
@@ -231,7 +237,7 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
 
     public function getDebugInfo()
     {
-        return array (  204 => 57,  194 => 56,  176 => 50,  164 => 12,  160 => 11,  157 => 10,  147 => 9,  128 => 5,  117 => 67,  115 => 56,  108 => 51,  106 => 50,  96 => 43,  92 => 42,  62 => 14,  60 => 9,  53 => 5,  47 => 1,);
+        return array (  210 => 63,  200 => 62,  182 => 56,  170 => 12,  166 => 11,  163 => 10,  153 => 9,  134 => 5,  123 => 73,  121 => 62,  114 => 57,  112 => 56,  102 => 49,  98 => 48,  62 => 14,  60 => 9,  53 => 5,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -249,6 +255,12 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
         <link rel=\"stylesheet\" href=\"{{ asset('css/font-awesome.css') }}\"/>
         <link rel=\"stylesheet\" href=\"{{ asset('css/styles.css') }}\"/>
     {% endblock %}
+    <style>
+        .col-sm-12{
+
+        }
+
+    </style>
 </head>
 
 <body>

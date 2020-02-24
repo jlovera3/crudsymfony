@@ -87,7 +87,7 @@ class __TwigTemplate_3b20f69cb8908f4b058fc997970e8afcdc34927f73d79c074d0f474e53c
         // line 6
         echo "    <h1>Libros</h1>
 
-    <table class=\"table\">
+    <table class=\"table table-striped table-dark\">
         <thead>
             <tr>
                 <th>Id</th>
@@ -138,21 +138,27 @@ class __TwigTemplate_3b20f69cb8908f4b058fc997970e8afcdc34927f73d79c074d0f474e53c
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["libro"], "image", [], "any", false, false, false, 30), "html", null, true);
             echo "</td>
                 <td>
-                    <a href=\"";
+                    ";
             // line 32
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("libro_show", ["id" => twig_get_attribute($this->env, $this->source, $context["libro"], "id", [], "any", false, false, false, 32)]), "html", null, true);
-            echo "\">show</a>
-                    <a href=\"";
-            // line 33
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("libro_edit", ["id" => twig_get_attribute($this->env, $this->source, $context["libro"], "id", [], "any", false, false, false, 33)]), "html", null, true);
-            echo "\">edit</a>
-                </td>
+            if ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("IS_AUTHENTICATED_FULLY")) {
+                // line 33
+                echo "                    <button type=\"button\" class=\"btn btn-success\"><a href=\"";
+                echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("libro_show", ["id" => twig_get_attribute($this->env, $this->source, $context["libro"], "id", [], "any", false, false, false, 33)]), "html", null, true);
+                echo "\" style=\"color: white\">show</a></button>
+                    <button type=\"button\" class=\"btn btn-warning\"><a href=\"";
+                // line 34
+                echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("libro_edit", ["id" => twig_get_attribute($this->env, $this->source, $context["libro"], "id", [], "any", false, false, false, 34)]), "html", null, true);
+                echo "\" style=\"color: white\">edit</a></button>
+                    ";
+            }
+            // line 36
+            echo "                </td>
             </tr>
         ";
             $context['_iterated'] = true;
         }
         if (!$context['_iterated']) {
-            // line 37
+            // line 39
             echo "            <tr>
                 <td colspan=\"8\">no records found</td>
             </tr>
@@ -161,15 +167,20 @@ class __TwigTemplate_3b20f69cb8908f4b058fc997970e8afcdc34927f73d79c074d0f474e53c
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['libro'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 41
+        // line 43
         echo "
         </tbody>
     </table>
-    <a href=\"";
-        // line 44
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("libro_new");
-        echo "\">Create new</a>
-";
+
+    ";
+        // line 47
+        if ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("IS_AUTHENTICATED_FULLY")) {
+            // line 48
+            echo "        <button type=\"button\" class=\"btn btn-secondary\"><a href=\"";
+            echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("libro_new");
+            echo "\" style=\"color: white\">Create new</a></button>
+    ";
+        }
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -190,7 +201,7 @@ class __TwigTemplate_3b20f69cb8908f4b058fc997970e8afcdc34927f73d79c074d0f474e53c
 
     public function getDebugInfo()
     {
-        return array (  170 => 44,  165 => 41,  156 => 37,  147 => 33,  143 => 32,  138 => 30,  134 => 29,  130 => 28,  126 => 27,  122 => 26,  118 => 25,  114 => 24,  111 => 23,  106 => 22,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  179 => 48,  177 => 47,  171 => 43,  162 => 39,  155 => 36,  150 => 34,  145 => 33,  143 => 32,  138 => 30,  134 => 29,  130 => 28,  126 => 27,  122 => 26,  118 => 25,  114 => 24,  111 => 23,  106 => 22,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -202,7 +213,7 @@ class __TwigTemplate_3b20f69cb8908f4b058fc997970e8afcdc34927f73d79c074d0f474e53c
 {% block body %}
     <h1>Libros</h1>
 
-    <table class=\"table\">
+    <table class=\"table table-striped table-dark\">
         <thead>
             <tr>
                 <th>Id</th>
@@ -226,8 +237,10 @@ class __TwigTemplate_3b20f69cb8908f4b058fc997970e8afcdc34927f73d79c074d0f474e53c
                 <td>{{ libro.bestseller ? 'Yes' : 'No' }}</td>
                 <td>{{ libro.image }}</td>
                 <td>
-                    <a href=\"{{ path('libro_show', {'id': libro.id}) }}\">show</a>
-                    <a href=\"{{ path('libro_edit', {'id': libro.id}) }}\">edit</a>
+                    {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+                    <button type=\"button\" class=\"btn btn-success\"><a href=\"{{ path('libro_show', {'id': libro.id}) }}\" style=\"color: white\">show</a></button>
+                    <button type=\"button\" class=\"btn btn-warning\"><a href=\"{{ path('libro_edit', {'id': libro.id}) }}\" style=\"color: white\">edit</a></button>
+                    {% endif %}
                 </td>
             </tr>
         {% else %}
@@ -238,7 +251,10 @@ class __TwigTemplate_3b20f69cb8908f4b058fc997970e8afcdc34927f73d79c074d0f474e53c
 
         </tbody>
     </table>
-    <a href=\"{{ path('libro_new') }}\">Create new</a>
+
+    {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+        <button type=\"button\" class=\"btn btn-secondary\"><a href=\"{{ path('libro_new') }}\" style=\"color: white\">Create new</a></button>
+    {% endif %}
 {% endblock %}
 ", "libro/index.html.twig", "C:\\xampp\\crudsymfony\\templates\\libro\\index.html.twig");
     }
