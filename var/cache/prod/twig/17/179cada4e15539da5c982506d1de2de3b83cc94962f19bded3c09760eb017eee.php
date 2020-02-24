@@ -55,7 +55,7 @@ class __TwigTemplate_fdcef0fc3fe827a7f28e6a4b0a9b440fe00b1408f92852973099d676cc4
     {
         $macros = $this->macros;
         // line 6
-        echo "    <h1>Libro index</h1>
+        echo "    <h1>Libros</h1>
 
     <table class=\"table\">
         <thead>

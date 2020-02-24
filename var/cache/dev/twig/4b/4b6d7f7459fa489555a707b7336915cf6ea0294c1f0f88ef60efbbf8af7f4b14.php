@@ -107,6 +107,41 @@ class __TwigTemplate_3ee1c5787dff89a1206866d01d3abf712f564cd765b163ec89db3d08e3d
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("C:/xampp/crudsymfony/templates/main/index.html.twig", 0), "html", null, true);
         echo "\">templates/main/index.html.twig</a></code></li>
     </ul>
+    <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
+        <a class=\"navbar-brand\" href=\"#\">TicArte Symfony</a>
+        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+            <span class=\"navbar-toggler-icon\"></span>
+        </button>
+
+        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
+            <ul class=\"navbar-nav mr-auto\">
+                ";
+        // line 27
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable((isset($context["items"]) || array_key_exists("items", $context) ? $context["items"] : (function () { throw new RuntimeError('Variable "items" does not exist.', 27, $this->source); })()));
+        foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
+            // line 28
+            echo "                    <li class=\"nav-item ";
+            if (twig_get_attribute($this->env, $this->source, $context["item"], "class", [], "any", true, true, false, 28)) {
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "class", [], "any", false, false, false, 28), "html", null, true);
+            }
+            echo "\">
+                        <a class=\"nav-link\" href=\"";
+            // line 29
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "url", [], "any", false, false, false, 29), "html", null, true);
+            echo "\">";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "title", [], "any", false, false, false, 29), "html", null, true);
+            echo "</a>
+                    </li>
+                ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 32
+        echo "            </ul>
+        </div>
+    </nav>
 </div>
 ";
         
@@ -129,7 +164,7 @@ class __TwigTemplate_3ee1c5787dff89a1206866d01d3abf712f564cd765b163ec89db3d08e3d
 
     public function getDebugInfo()
     {
-        return array (  107 => 17,  103 => 16,  96 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  142 => 32,  131 => 29,  124 => 28,  120 => 27,  107 => 17,  103 => 16,  96 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -152,6 +187,22 @@ class __TwigTemplate_3ee1c5787dff89a1206866d01d3abf712f564cd765b163ec89db3d08e3d
         <li>Your controller at <code><a href=\"{{ 'C:/xampp/crudsymfony/src/Controller/MainController.php'|file_link(0) }}\">src/Controller/MainController.php</a></code></li>
         <li>Your template at <code><a href=\"{{ 'C:/xampp/crudsymfony/templates/main/index.html.twig'|file_link(0) }}\">templates/main/index.html.twig</a></code></li>
     </ul>
+    <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
+        <a class=\"navbar-brand\" href=\"#\">TicArte Symfony</a>
+        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+            <span class=\"navbar-toggler-icon\"></span>
+        </button>
+
+        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
+            <ul class=\"navbar-nav mr-auto\">
+                {% for item in items %}
+                    <li class=\"nav-item {% if item.class is defined %}{{ item.class }}{% endif %}\">
+                        <a class=\"nav-link\" href=\"{{ item.url }}\">{{ item.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
 </div>
 {% endblock %}
 ", "main/index.html.twig", "C:\\xampp\\crudsymfony\\templates\\main\\index.html.twig");

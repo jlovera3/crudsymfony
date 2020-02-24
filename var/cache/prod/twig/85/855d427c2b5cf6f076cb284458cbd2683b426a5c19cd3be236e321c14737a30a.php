@@ -77,6 +77,41 @@ class __TwigTemplate_7380f85d4ce7e9c2fbc938f2d583accb5d16d36239a600922bbdaaabb77
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("C:/xampp/crudsymfony/templates/main/index.html.twig", 0), "html", null, true);
         echo "\">templates/main/index.html.twig</a></code></li>
     </ul>
+    <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
+        <a class=\"navbar-brand\" href=\"#\">TicArte Symfony</a>
+        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+            <span class=\"navbar-toggler-icon\"></span>
+        </button>
+
+        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
+            <ul class=\"navbar-nav mr-auto\">
+                ";
+        // line 27
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(($context["items"] ?? null));
+        foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
+            // line 28
+            echo "                    <li class=\"nav-item ";
+            if (twig_get_attribute($this->env, $this->source, $context["item"], "class", [], "any", true, true, false, 28)) {
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "class", [], "any", false, false, false, 28), "html", null, true);
+            }
+            echo "\">
+                        <a class=\"nav-link\" href=\"";
+            // line 29
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "url", [], "any", false, false, false, 29), "html", null, true);
+            echo "\">";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "title", [], "any", false, false, false, 29), "html", null, true);
+            echo "</a>
+                    </li>
+                ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 32
+        echo "            </ul>
+        </div>
+    </nav>
 </div>
 ";
     }
@@ -93,7 +128,7 @@ class __TwigTemplate_7380f85d4ce7e9c2fbc938f2d583accb5d16d36239a600922bbdaaabb77
 
     public function getDebugInfo()
     {
-        return array (  77 => 17,  73 => 16,  66 => 12,  58 => 6,  54 => 5,  47 => 3,  36 => 1,);
+        return array (  112 => 32,  101 => 29,  94 => 28,  90 => 27,  77 => 17,  73 => 16,  66 => 12,  58 => 6,  54 => 5,  47 => 3,  36 => 1,);
     }
 
     public function getSourceContext()

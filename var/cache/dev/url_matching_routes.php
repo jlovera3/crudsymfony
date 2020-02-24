@@ -18,6 +18,13 @@ return [
         '/libro' => [[['_route' => 'libro_index', '_controller' => 'App\\Controller\\LibroController::index'], null, ['GET' => 0], null, true, false, null]],
         '/libro/new' => [[['_route' => 'libro_new', '_controller' => 'App\\Controller\\LibroController::new'], null, ['GET' => 0, 'POST' => 1], null, false, false, null]],
         '/main' => [[['_route' => 'main', '_controller' => 'App\\Controller\\MainController::index'], null, null, null, false, false, null]],
+        '/' => [
+            [['_route' => 'app_menu_mainmenu', '_controller' => 'App\\Controller\\MenuController::mainMenu'], null, null, null, false, false, null],
+            [['_route' => 'index', '_controller' => 'App\\Controller\\MenuController::mainMenu'], null, null, null, false, false, null],
+        ],
+        '/register' => [[['_route' => 'app_register', '_controller' => 'App\\Controller\\RegistrationController::register'], null, null, null, false, false, null]],
+        '/login' => [[['_route' => 'app_login', '_controller' => 'App\\Controller\\SecurityController::login'], null, null, null, false, false, null]],
+        '/logout' => [[['_route' => 'app_logout', '_controller' => 'App\\Controller\\SecurityController::logout'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

@@ -26,4 +26,9 @@ return [
     'libro_edit' => [['id'], ['_controller' => 'App\\Controller\\LibroController::edit'], [], [['text', '/edit'], ['variable', '/', '[^/]++', 'id', true], ['text', '/libro']], [], []],
     'libro_delete' => [['id'], ['_controller' => 'App\\Controller\\LibroController::delete'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/libro']], [], []],
     'main' => [[], ['_controller' => 'App\\Controller\\MainController::index'], [], [['text', '/main']], [], []],
+    'app_menu_mainmenu' => [[], ['_controller' => 'App\\Controller\\MenuController::mainMenu'], [], [['text', '/']], [], []],
+    'app_register' => [[], ['_controller' => 'App\\Controller\\RegistrationController::register'], [], [['text', '/register']], [], []],
+    'app_login' => [[], ['_controller' => 'App\\Controller\\SecurityController::login'], [], [['text', '/login']], [], []],
+    'app_logout' => [[], ['_controller' => 'App\\Controller\\SecurityController::logout'], [], [['text', '/logout']], [], []],
+    'index' => [[], ['_controller' => 'App\\Controller\\MenuController::mainMenu'], [], [['text', '/']], [], []],
 ];

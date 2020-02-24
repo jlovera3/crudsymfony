@@ -85,7 +85,7 @@ class __TwigTemplate_b7db74931aef2deb6b2dd7f8a200f6de2fdbc7ff79d54f07dbc7b0971bc
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "    <h1>Autor index</h1>
+        echo "    <h1>Autores</h1>
 
     <table class=\"table\">
         <thead>
@@ -185,7 +185,7 @@ class __TwigTemplate_b7db74931aef2deb6b2dd7f8a200f6de2fdbc7ff79d54f07dbc7b0971bc
 {% block title %}Autor index{% endblock %}
 
 {% block body %}
-    <h1>Autor index</h1>
+    <h1>Autores</h1>
 
     <table class=\"table\">
         <thead>

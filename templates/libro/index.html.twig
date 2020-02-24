@@ -3,7 +3,7 @@
 {% block title %}Libro index{% endblock %}
 
 {% block body %}
-    <h1>Libro index</h1>
+    <h1>Libros</h1>
 
     <table class="table">
         <thead>
@@ -38,8 +38,8 @@
                 <td colspan="8">no records found</td>
             </tr>
         {% endfor %}
+
         </tbody>
     </table>
-
     <a href="{{ path('libro_new') }}">Create new</a>
 {% endblock %}

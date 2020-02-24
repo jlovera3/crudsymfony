@@ -12,5 +12,5 @@ class AutorFixtures extends Fixture
 {
     public function load(ObjectManager $manager)
     {}
-    
+
 }

@@ -85,7 +85,7 @@ class __TwigTemplate_3b20f69cb8908f4b058fc997970e8afcdc34927f73d79c074d0f474e53c
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "    <h1>Libro index</h1>
+        echo "    <h1>Libros</h1>
 
     <table class=\"table\">
         <thead>
@@ -162,9 +162,9 @@ class __TwigTemplate_3b20f69cb8908f4b058fc997970e8afcdc34927f73d79c074d0f474e53c
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['libro'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 41
-        echo "        </tbody>
+        echo "
+        </tbody>
     </table>
-
     <a href=\"";
         // line 44
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("libro_new");
@@ -200,7 +200,7 @@ class __TwigTemplate_3b20f69cb8908f4b058fc997970e8afcdc34927f73d79c074d0f474e53c
 {% block title %}Libro index{% endblock %}
 
 {% block body %}
-    <h1>Libro index</h1>
+    <h1>Libros</h1>
 
     <table class=\"table\">
         <thead>
@@ -235,9 +235,9 @@ class __TwigTemplate_3b20f69cb8908f4b058fc997970e8afcdc34927f73d79c074d0f474e53c
                 <td colspan=\"8\">no records found</td>
             </tr>
         {% endfor %}
+
         </tbody>
     </table>
-
     <a href=\"{{ path('libro_new') }}\">Create new</a>
 {% endblock %}
 ", "libro/index.html.twig", "C:\\xampp\\crudsymfony\\templates\\libro\\index.html.twig");
